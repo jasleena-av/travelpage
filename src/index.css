@@ -1,13 +1,8 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bricolage+Grotesque:opsz,wght@10..48,500&family=Bruno+Ace&family=Comforter+Brush&family=Dancing+Script:wght@400;700&family=Dosis:wght@200&family=Gloock&family=Instrument+Serif&family=Merriweather:ital,wght@0,300;0,700;1,300;1,400&family=Playfair+Display:ital,wght@1,500&family=Poppins:wght@300&family=Roboto+Condensed:wght@300;400&family=Rubik:ital,wght@1,300&family=Schibsted+Grotesk&display=swap');
+h2{
+    font-family: 'Bricolage Grotesque', sans-serif;;
 }
